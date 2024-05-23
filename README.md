@@ -102,7 +102,6 @@ metrics[['loss','val_loss']].plot()
 
 decoded_imgs = autoencoder.predict(x_test_noisy)
 
-print("AFSAR JUMAIL S\n212222240004\n")
 n = 10
 plt.figure(figsize=(20, 4))
 for i in range(1, n + 1):
